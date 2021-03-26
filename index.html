@@ -31,11 +31,9 @@
                             <button class="btn btn-outline-sceondary custom-button" type="button" id="search-button"><i
                                     class="fa fa-search" aria-hidden="true"></i></button>
 
-                            <!--class container" id=history -->
+                            <!--class container id=history -->
                             <div class="container col-12 col-md-12 text-center" id="history">
-                                <p class="card-body">
-                                    List of cities
-                                </p>
+                                <p class="card-body"></p>
                             </div>
                         </div>
                     </div>
@@ -44,32 +42,27 @@
                 <!--Current Weather-->
                 <div class="col-12 col-md-8 col-xl-9" id='weather'>
 
-                    <h2 id="searched-city"></h2>
-                    <div id="current-weather-container" class="list-group">
+                    <!-- <h2 id="searched-city"></h2>
+                    <div id="current-weather-container" class="list-group"> -->
 
-                    </div>
                 </div>
+            </div>
             </div>
 
             <!--5 Day Forecast-->
 
-            <div class="col-12 col-md-8 col-xl-9" id='five-day'>
-                <div class="forecast" style="width: 18rem;">
-                    <div class="card-body">
-                        <div id="five-day-container" class="list-group">
-                            <h5 class="card-title"></h5>
-
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
+            <div class="row-border" id='forecast'>
+                <h2 class='col-8 text-center'>5 Day Forecast</h2>
+                <div class="row" id="five-day-container">
                 </div>
             </div>
 
         </section>
-        
+
     </main>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/script.js"></script>
 </body>
